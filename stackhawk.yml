@@ -8,6 +8,9 @@ app:
   host: http://localhost:3000 # (required)
 
 
+hawk:
+  failureThreshold: high
+
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
 
